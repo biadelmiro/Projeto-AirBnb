@@ -1,0 +1,168 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: rgb(253, 253, 253);
+    font-size: 18px;
+}
+
+#container{
+    margin: 50px;
+    margin-top: 30px !important; 
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#menu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#menu>div{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.nounderline:link{
+    text-decoration:none;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+    
+}
+
+a:hover{
+    color:  #FF585D;
+    text-decoration:none;
+}
+
+#dropdownMenuButton{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: #ffffff;
+}
+
+#dropdownMenuButton:hover{
+    color: #FF585D;
+}
+
+.cadastro{
+    border: 2px solid #FF585D;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cadastro:hover{
+    background-color: #FF585D;
+    color: #ffffff;
+}
+
+
+#local{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 50px;
+    color: #FF585D;
+}
+
+#localizacao{
+    margin-bottom: 30px; 
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-box-shadow: 10px 11px 15px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 15px -19px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 15px -19px rgba(0,0,0,0.75);
+}
+
+.buscar{
+    border-radius: 20px;
+    border:none;
+    padding: 10px;
+}
+
+#localizacao>button{
+    background-color: #FF585D;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    padding: 10px;
+    margin-left: 90px;
+}
+
+#localizacao>input{
+    border:none;
+}
+
+#localizacao>button:hover{
+    background-color: rgb(255, 64, 70);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.cards{
+    width:100%;
+    display:flex;  
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+    align-content: space-between;
+}
+
+.preco{
+    background-color: #FF585D;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.preco:hover{
+    background-color: rgb(255, 64, 70);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.descricao{
+    display: none;
+    align-items: flex-end;
+}
+.item:hover .descricao{
+    display: block;
+}
+
+.cadaitem{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
